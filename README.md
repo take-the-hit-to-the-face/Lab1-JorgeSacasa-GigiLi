@@ -1,75 +1,100 @@
-# Lab 0 -- Getting Started with Java and Git
+## Lab 1 -- Learning to use Java Math, Input, and Output
+30 points
+Due: 1/30 before class
 
-40 points			
+## Purpose:
+This assignment is aimed at giving you experience with Java math, variables, and user input. It will also give you more practice with IntelliJ and GitHub.
 
-## Purpose:  
+## Problem:
+You are doing some grocery shopping and would like to figure out how much it is going to cost. However, you only have two hands and you have to walk home. Thus, you are going to buy exactly two bags of things. You are going to write a program to provide you with a receipt for your shopping trip.
 
-This assignment aims to ease you into Java programming experience using IntelliJ,  an Interactive Development Environment (IDE).
+## Details:
+The program will ask for three pieces of infortmation about each item: 
+1. The name of the item.
+2. The number of units of the item. This store does NOT sell fractional units of things.
+3. The cost per unit.
 
-This assignment will give you a chance to practice the following:
+After collecting the information for two(2) items, the program will output the items purchased, the cost per item, and the total cost.
 
-1. Collaborating with your classmate by using pair programming
-2. Sharing code through Github.
-3. Learning about ASCII art
+A sample run of the program may look like this:
 
-## Problem: 
+_Welcome to Mr. John's Shop'n'Save'n'Enjoy, home of the discount dish towel. 
+We hope you had a pleasent shopping experience and would be thrilled to provide you with a receipt to use as a momento of your time here with us today._
 
-Write a simple Java program that prints out your initial in the form of ASCII art similar to the one shown here: https://www.asciiart.eu/
+What was the first item that you purchased?
+Hulk Ice Cream
+Great! How many units of Hulk Ice Cream did you buy?
+67
+Okay! How much did Hulk Ice Cream cost per unit?
+1.05
 
-### Details: 
+What was the second item that you purchased?
+A ride on a Shetland Pony
+Great! How many units of A ride on a Shetland Pony did you purchase?
+1
+Okay! How much did A ride on a Shetland Pony cost per unit?
+23.99
 
-You will write your program in the “pair programming” mode -- one of you is the driver while the other is the navigator.  Once the first driver has written the println statements to print out their partner’s initial (i.e., HB) in ASCII art form, switch roles. Remember that the navigator (e.g., the person who is not currently the driver) is helping determine what code should be written. I recommend sketching it out on paper first.
+Sounds like you had a productive shopping trip. Here is your receipt:
 
-It is assumed that you have both already clicked on the link on Moodle to get access to your Lab0 repository. The first person created the team name (last names of participants), and the second person joined that team.
+*****
+Hulk Ice Cream 67@1.05 70.35
+A ride on a Shetland Pony 1@23.99 23.99
+----------
+TOTAL: 94.34
+*****
 
-Your team can decide who would be the driver and the navigator first. Then, you can switch the roles later.
+Thanks for your visit. Have a day.
 
-### Steps:
+## Requirements:
+1. Complete a set of test cases.
+2. Complete an algorithm or psuedocode before you program.
+3. Follow good programming practices including peer programming (When 1/2 the code is written, or 1/2 of class is over, switch drivers).
+4. Ensure your code meets all all detailed requirements.
+5. Properly use variables (including enrsuring the type is correct), input, math, and output.
+6. Use your test cases to test that your program works correctly. Fix any errors.
 
-#### Driver 1 Writes Code:
+## Reminders:
+You will write your program in the "pair programming" mode: one of you is the driver while the other is the navigator.
 
-1. CLONE REPOSITORY: Open IntelliJ and follow the steps in the “Get a repository from Git to IntelliJ” guide under "Setting Up Your Computer to Use Java JDK, IntelliJ and Git” on Moodle. 
+Make sure you understand the problem you are being asked to solve. What are the input(s), output(s), and calculation(s)?
 
-2. STARTER FILE: A single .java file exists in the repository (HelloWorld.java). Compile and run your program. It should print out Hello, World!. Refer to the guide from the last step if you have any problems.
+Write Test Cases: create a series of test cases in Excel to use to determine that your program works correctly. Ideally, have excel calculate the answer for you.
 
-3. CODE: You must modify the println statement and add other println statements to print out your partner’s initial. Again, I highly recommend sketching the letters out on paper first.
+Complete the algorithm for your calculations that is started in algorithm.txt. Whoever didn't type the majority of the test cases, should type the algorithm Your program should do ALL of the calculations for you, and should work for ANY valid inputs. You do not need to do error checking, yet.
 
-4. RUN and TEST: Run your program by clicking on the “Run” menu, then choosing “Run” from the drop down menu or use the Run button. Look at the output at the bottom of IntelliJ. Does it appear the way you want? If not, or if instead you see an error, try to fix your code so that it does what you want (you will need to run again afterward). One of the errors you may encounter is “java: illegal escape character.” If you have \ (backslash) in your println statement, you need to put another one in front of it: \\.
+Code: Create a new Java file, and follow your algorithm to write your code. You may assume that your input will always be of the correct type. Whoever has done the least typing at this point should start as driver.
 
-5. CONTINUE CODING: repeat step 4 until you are happy with the result.
+Fix compiler errors: Run your program and fix any errors that appear.
 
-6. COMMIT AND PUSH: Commit and push your code to github.com. Follow the directions in the “GitHub Quick Guide” document for “Saving Your Work.”
+Test: Once your code runs and you think it’s complete, test it using your test cases -- run, give the input value as input, and see if you get the right output. If not, you need to fix the error(s) in your code!
 
-Now, you can switch roles.
+Make sure you’ve created a human readable essay (i.e. your program). Did you follow the code readability guidelines? If not, fix your code so that it is readable. You should have comments above each chunk of code!
 
-#### Driver 2 Writes Code
+Include an updated version of the intro comments below at the very top of your Python file. Do not include the brackets [ and ] but replace them with what is asked for inside of them. Be sure to keep the titles at the start of each line. 
+### Programmers: [your names here] 
+### Course: CS212, Mr. John 
+### Due Date: 1/30/23 
+### Lab Assignment: 1 
+### Problem Statement: [describe what task this program performs] 
+### Data In: [list the type of information your user input requests] 
+### Data Out: [list the type of information output with print] 
+### Credits: [Is your code based on an example in the book, in class, or something else?]
 
-7. CLONE or PULL: It is now driver 2's turn to write the code. They should first Clone the Repository if they haven't already. If you cloned the repository before Driver #1 committed and pushed the code, you will need to update your local repository by using the blue arrow on the top menu (Next to Git:)
+Once you are done in lab, even if you haven’t finished the assignment yet, you need to Commit and Push your changes, and upload your test cases to Moodle.
 
-8. CONTINUE CODING: You should see the changes your partner made in HelloWorld.java. It is now time to write code to print out your partner’s initial. Repeat steps 3,4 and 5 until you are happy with the result.
+## What to Submit:
+To GitHub:
+1. Completed .java file
+2. Algorithm in algorithm.txt
 
-9. COMMENT: Comments are part of the programming in general. You should always put comments in your code code. They are used to explain how the code works to human readers.  Once your program runs properly, add introductory comments at the very top of your file that match the ones below but are edited to be personalized to you and your partner. Use // to add comments to your code.
+To Moodle in the Lab1 assignment (both partners need to do this): 
+1. An Excel file with your test cases (can be the same file the partners worked on).
+2. An individual reflection on the lab (min 100 words, max one page.) This should be in PDF or text ONLY. No .pages!.
+    You should address the following questions:
+    a. How was the experience working with your partner?
+    b. What did you learn in this lab?
+    c. What were the easiest and hardest things about working with types?
+    d. What were the easiest and hardest things about working with user input?
 
-```
-  // Programmers:  your name here
-  // Course:  CS 212, Dr. Cui  
-  // Due Date: 1/19/24
-  // Lab Assignment: 0
-  // Problem Statement:  Output programmers’ initial
-  // Input: None; there is no user input in this program
-  // Output:  The initials of the programmers in ASCII art form
-  // Credits: [Is your code based on an example in the book, in class, or something else?  
-  //            Reminder: you should never take code from the Internet or another person
-```
-10.  COMMIT AND PUSH: Commit and push your code to github.com. Follow the directions in the “GitHub Quick Guide” document for “Saving Your Work.”
-
-
-Quick note:
-If you are done,  show your program running and on GitHub to the professor before leaving the classroom.
-
-You can earn bonus points by showing your creativity.
-
-### What to Submit:
-
-1.	Commit & Push your repository to GitHub. It should include a HelloWorld.java with all the code you write and the introductory comments at the very top. You can go to GitHub.com to check that it worked.
-
+As a reminder, reflections count toward your participation grade.
