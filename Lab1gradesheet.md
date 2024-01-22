@@ -2,9 +2,12 @@
 Final grade: /25
 
 ## Code works correctly (16 points)
+
 | Earned |	Possible |	Requirement                           |	Comments from Grading |
 |        | 1	       | States purpose of the program at start	|                       | 
 |        | 2	       |     Correctly inputs items           	|                       |
+
+
 | 1	| Correctly inputs price	|
 | 1	| Correctly inputs quatities	|
 | 2	| Types are correct	|
