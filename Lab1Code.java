@@ -35,12 +35,13 @@ public class Lab1Code {
         System.out.println("\nOkay! How much did " + secondItem + " cost per unit?");
         float secondCost = input.nextFloat();
 
+        //calculate the cost for each item and the total cost
         float firstSubTotal = firstUnit * firstCost;
         float secondSubTotal = secondUnit * secondCost;
         float totalCost = firstSubTotal + secondSubTotal;
 
+        //print the receipt to the user and thank them
         System.out.println("\nSounds like you had a productive shopping trip. Here is your receipt:");
-
         System.out.println( firstItem + " " + firstUnit + " @ " + firstCost + ": " + firstSubTotal);
         System.out.println( secondItem + " " + secondUnit + " @ " + secondCost + ": " + secondSubTotal);
         System.out.println("\nTOTAL: " + totalCost);
