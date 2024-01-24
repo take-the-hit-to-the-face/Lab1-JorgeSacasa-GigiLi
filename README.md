@@ -21,30 +21,44 @@ A sample run of the program may look like this:
 _Welcome to Mr. John's Shop'n'Save'n'Enjoy, home of the discount dish towel. 
 We hope you had a pleasent shopping experience and would be thrilled to provide you with a receipt to use as a momento of your time here with us today._
 
-What was the first item that you purchased?
-Hulk Ice Cream
-Great! How many units of Hulk Ice Cream did you buy?
-67
-Okay! How much did Hulk Ice Cream cost per unit?
-1.05
+Q: _What was the first item that you purchased?_
 
-What was the second item that you purchased?
-A ride on a Shetland Pony
-Great! How many units of A ride on a Shetland Pony did you purchase?
-1
-Okay! How much did A ride on a Shetland Pony cost per unit?
-23.99
+A: Hulk Ice Cream
 
-Sounds like you had a productive shopping trip. Here is your receipt:
+Q: _Great! How many units of Hulk Ice Cream did you buy?_
 
-*****
-Hulk Ice Cream 67@1.05 70.35
-A ride on a Shetland Pony 1@23.99 23.99
+A: 67
+
+Q: _Okay! How much did Hulk Ice Cream cost per unit?_
+
+A: 1.05
+
+Q: _What was the second item that you purchased?_
+
+A: A ride on a Shetland Pony
+
+Q: _Great! How many units of A ride on a Shetland Pony did you purchase?_
+
+A: 1
+
+Q: _Okay! How much did A ride on a Shetland Pony cost per unit?_
+
+A: 23.99
+
+Q: _Sounds like you had a productive shopping trip. Here is your receipt:_
+
+***
+_Hulk Ice Cream 67 @ 1.05: 70.35_
+
+_A ride on a Shetland Pony 1 @ 23.99: 23.99_
+
 ----------
-TOTAL: 94.34
-*****
+_TOTAL: 94.34_
 
-Thanks for your visit. Have a day.
+
+_Thanks for your visit. Have a day._
+
+***
 
 ## Requirements:
 1. Complete a set of test cases.
