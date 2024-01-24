@@ -1,1 +1,12 @@
-1.
+1. Tell the user the purpose of the program and ask them for the name of the first item
+2. Ask the user for the units of the first item
+3. Ask the user for the cost of the item per unit
+4. Calculate the cost of the item based on the unit
+5. Ask the user for the name of the second item
+6. Ask the user for the units of the second item
+7. Ask the user for the cost of the  second item per unit
+8. Calculate the cost of the item based on the unit
+9. Output name of items, amount, price per unit and subtotal price for the first item
+10. Repeat step 9 for second item
+11. Output the total price
+12. Thank the user for using the program
