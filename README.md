@@ -1,6 +1,6 @@
 ## Lab 1 -- Learning to use Java Math, Input, and Output
 30 points
-Due: 1/30 before class
+Due: 1/28
 
 ## Purpose:
 This assignment is aimed at giving you experience with Java math, variables, and user input. It will also give you more practice with IntelliJ and GitHub.
