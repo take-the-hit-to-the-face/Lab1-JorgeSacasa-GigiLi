@@ -86,29 +86,32 @@ Test: Once your code runs and you think it’s complete, test it using your test
 Make sure you’ve created a human readable essay (i.e. your program). Did you follow the code readability guidelines? If not, fix your code so that it is readable. You should have comments above each chunk of code!
 
 Include an updated version of the intro comments below at the very top of your Python file. Do not include the brackets [ and ] but replace them with what is asked for inside of them. Be sure to keep the titles at the start of each line. 
-### Programmers: [your names here] 
-### Course: CS212, Mr. John 
-### Due Date: 1/30/23 
-### Lab Assignment: 1 
-### Problem Statement: [describe what task this program performs] 
-### Data In: [list the type of information your user input requests] 
-### Data Out: [list the type of information output with print] 
-### Credits: [Is your code based on an example in the book, in class, or something else?]
+##### Programmers: [your names here] 
+##### Course: CS212, Mr. John 
+##### Due Date: 1/28/23 
+##### Lab Assignment: 1 
+##### Problem Statement: [describe what task this program performs] 
+##### Data In: [list the type of information your user input requests] 
+##### Data Out: [list the type of information output with print] 
+##### Credits: [Is your code based on an example in the book, in class, or something else?]
 
 Once you are done in lab, even if you haven’t finished the assignment yet, you need to Commit and Push your changes, and upload your test cases to Moodle.
 
 ## What to Submit:
-To GitHub:
+##### To GitHub (push):
 1. Completed .java file
 2. Algorithm in algorithm.txt
 
-To Moodle in the Lab1 assignment (both partners need to do this): 
-1. An Excel file with your test cases (can be the same file the partners worked on).
-2. An individual reflection on the lab (min 100 words, max one page.) This should be in PDF or text ONLY. No .pages!.
+##### To Moodle in the Lab1 assignment (both partners need to do this): 
+3. An Excel file with your test cases (can be the same file the partners worked on).
+4. A link to your github submission.
+
+##### To Moodle in the Reflection assignment (both partners need to do this): 
+5. An individual reflection on the lab (min 100 words, max one page.) This should be in PDF or text ONLY. No .pages!.
     You should address the following questions:
     a. How was the experience working with your partner?
     b. What did you learn in this lab?
     c. What were the easiest and hardest things about working with types?
     d. What were the easiest and hardest things about working with user input?
 
-As a reminder, reflections count toward your participation grade.
+**Reminder:**  reflections count toward your participation grade.
