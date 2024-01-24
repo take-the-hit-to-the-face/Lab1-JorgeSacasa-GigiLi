@@ -7,6 +7,7 @@
 // Inputs: name, unit, and price of the two items
 // Output: Name of the item with amount and price per unit with also subtotal price, total price of both items
 // Credits: https://java2blog.com/print-float-to-2-decimal-places-java/#:~:text=7%20ways%20to%20print%20float%20to%202%20decimal,Using%20NumberFormat%20...%205%205.%20Using%20BigDecimal%20
+// https://stackoverflow.com/questions/13102045/scanner-is-skipping-nextline-after-using-next-or-nextfoo
 
 import java.util.Scanner;
 public class Lab1Code {
