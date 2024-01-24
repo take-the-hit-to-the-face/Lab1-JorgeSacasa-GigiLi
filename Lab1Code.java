@@ -17,31 +17,34 @@ public class Lab1Code {
         System.out.println("Welcome to the Shop. We hope you had a pleasant shopping experience with us today!");
 
         //asks the user for the name, unit, and price of the first item
-        System.out.println("\n What was the first item that you purchased?");
+        System.out.println("\nWhat was the first item that you purchased?");
         String firstItem = input.nextLine();
-        System.out.println("\n Great! How many units of " + firstItem + " did you buy?");
+        System.out.println("\nGreat! How many units of " + firstItem + " did you buy?");
         int firstUnit = input.nextInt();
-        System.out.println("\n Okay! How much did " + firstItem + " cost per unit?");
+        System.out.println("\nOkay! How much did " + firstItem + " cost per unit?");
         float firstCost = input.nextFloat();
 
+        //debugs the error with the code skipping lines for the 2nd string input
+        input.nextLine();
+
         //asks the user for the name, unit, and price of the second item
-        System.out.println("\n What was the second item that you purchased?");
+        System.out.println("\nWhat was the second item that you purchased?");
         String secondItem = input.nextLine();
-        System.out.println("\n Great! How many units of " + secondItem + " did you buy?");
+        System.out.println("\nGreat! How many units of " + secondItem + " did you buy?");
         int secondUnit = input.nextInt();
-        System.out.println("\n Okay! How much did " + secondItem + " cost per unit?");
+        System.out.println("\nOkay! How much did " + secondItem + " cost per unit?");
         float secondCost = input.nextFloat();
 
         float firstSubTotal = firstUnit * firstCost;
         float secondSubTotal = secondUnit * secondCost;
         float totalCost = firstSubTotal + secondSubTotal;
 
-        System.out.println("\n Sounds like you had a productive shopping trip.\nHere is your receipt:");
+        System.out.println("\nSounds like you had a productive shopping trip. Here is your receipt:");
 
         System.out.println( firstItem + " " + firstUnit + " @ " + firstCost + ": " + firstSubTotal);
         System.out.println( secondItem + " " + secondUnit + " @ " + secondCost + ": " + secondSubTotal);
-        System.out.println("TOTAL: " + totalCost);
-        System.out.println("Thanks for your visit. Have a nice day.");
+        System.out.println("\nTOTAL: " + totalCost);
+        System.out.println("\nThanks for your visit. Have a nice day.");
 
 
     }
